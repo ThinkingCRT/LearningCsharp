@@ -1,0 +1,14 @@
+D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\obj\Debug\net9.0\Basic#.GeneratedMSBuildEditorConfig.editorconfig
+D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\obj\Debug\net9.0\Basic#.AssemblyInfoInputs.cache
+D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\obj\Debug\net9.0\Basic#.AssemblyInfo.cs
+D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\obj\Debug\net9.0\Basic#.csproj.CoreCompileInputs.cache
+D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\bin\Debug\net9.0\Basic#.exe
+D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\bin\Debug\net9.0\Basic#.deps.json
+D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\bin\Debug\net9.0\Basic#.runtimeconfig.json
+D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\bin\Debug\net9.0\Basic#.dll
+D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\bin\Debug\net9.0\Basic#.pdb
+D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\obj\Debug\net9.0\Basic#.dll
+D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\obj\Debug\net9.0\refint\Basic#.dll
+D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\obj\Debug\net9.0\Basic#.pdb
+D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\obj\Debug\net9.0\Basic#.genruntimeconfig.cache
+D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\obj\Debug\net9.0\ref\Basic#.dll
