@@ -254,6 +254,7 @@ namespace Basic.Practic
     // 2) является ли равенство b>a>c true
     class EqualityTreeNumbers 
     {
+        private const double MinValue = -9e11, MaxValue = 9e11;
         private const string InputNumbersMessage = "Введите число: ";
         private const string InputNumbers1Message = "Введите первое число: ";
         private const string InputNumbers2Message = "Введите второе число: ";
@@ -279,12 +280,14 @@ namespace Basic.Practic
         public double Numbers2 { get; private set;}
         public double Numbers3 { get; private set;}
 
+        public void Print(string message) => Console.Write(message);
+        public void PrintLine(string message) => Console.WriteLine(message);
+
         private double InputNumbers()
         {
             while(true)
             {
-                string? transormToNum = Console.ReadLine();
-                if(!double.TryParse(transormToNum, out double numbers) || numbers < -9000000000000 || numbers > 9000000000000)
+                if(!double.TryParse(Console.ReadLine(), out double numbers) || numbers < MinValue || numbers > MaxValue)
                 {
                     PrintLine(InputIncorrectNumbersMessage);
                     Print(InputNumbersMessage);
@@ -294,10 +297,7 @@ namespace Basic.Practic
             }
         }
 
-        private void DisplayDanoResult()
-        {
-            PrintLine($"a = {Numbers1:N2}, b = {Numbers2:N2}, c = {Numbers3:N2}");
-        }
+        private void DisplayDanoResult() => PrintLine($"a = {Numbers1:N2}, b = {Numbers2:N2}, c = {Numbers3:N2}");
 
         private void DisplayEqualityFirstResult()
         {
@@ -307,16 +307,6 @@ namespace Basic.Practic
                 PrintLine(SecondResultEqualityMessage);
             else
                 PrintLine(TreeResultEqualityMessage);
-        }
-
-        private void Print(string message)
-        {
-            Console.Write(message);
-        }
-
-        private void PrintLine(string message)
-        {
-            Console.WriteLine(message);
         }
     }
 
