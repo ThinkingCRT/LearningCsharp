@@ -12,3 +12,4 @@ D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\obj\Debug\net9.0\refint\Ba
 D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\obj\Debug\net9.0\Basic#.pdb
 D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\obj\Debug\net9.0\Basic#.genruntimeconfig.cache
 D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\obj\Debug\net9.0\ref\Basic#.dll
+D:\OpenServer\domains\NEML\C#Leaning\PracticC#\Basic#\obj\Debug\net9.0\Basic#.sourcelink.json
