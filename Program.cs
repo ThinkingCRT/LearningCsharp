@@ -150,11 +150,61 @@ namespace Basic
             Console.WriteLine(personInit.Email);                  */
 
 //--------------------------------------------------------------------------------------------------------------------------------------//
-//------------------------------------Наследование, Виртуалки, Инкапсуляция-------------------------------------------------------------//
+//------------------------------------Наследование, Виртуалки, Полиморфизм, Абстракции--------------------------------------------------//
 //--------------------------------------------------------------------------------------------------------------------------------------//
-        
+ /*    
+             // Создание объекта employee
             InheritPersone peroneEmployee = new Employee();
 
+            // Виртуальные методы
+            TransportVirtual obj = new CarVirtual();
+            obj.Move(); // Выведет "Car is driving" 
+
+            // Скрытые методы
+            TransportHidden obj2 = new CarHidden();
+            obj2.Method(); // Выведет "TransportHidden"
+
+            // Абстрактный класс
+            Animal myDog = new Dog("Rex");
+            myDog.MakeSound(); // "Bark!"
+            myDog.Eat();       // "Eating dog food"
+            myDog.Sleep();     // "Rex is sleeping..."
+            Console.WriteLine(myDog.Species); // "Canis lupus familiaris"
+
+            // Обобщения
+            var tom = new PersonGen<int>(546, "Tom");         // Возвращает int, если другой тип - оши
+            var bob = new PersonGen<string>("abc123", "Bob"); // Возвращает string
+            int tomId = tom.Id;          // распаковка не нужна
+            string bobId = bob.Id;       // преобразование типов не нужно
+            Console.WriteLine(tomId);    // 546
+            Console.WriteLine(bobId);    // abc123
+
+            // Обобщённый метод
+            var printer = new Printer();
+            printer.Print<int>(10);       // 10
+            printer.Print<string>("Hi");  // Hi
+            printer.Print(3.14);          // 3.14    // Можно опустить тип, компилятор выведет его сам
+
+            // Ограничение обобщений
+            var telegram = new Messenger<Message>();             // Использует объекты Message
+            telegram.SendMessage(new Message("Hello World"));    // Инициализация Message
+            var outlook = new Messenger<EmailMessage>();
+            outlook.SendMessage(new EmailMessage("Bye World"));
+
+            // Наследование обобщения с явным типом
+            var obj3 = new IntDerived();
+            obj3.Data = 42;
+            obj3.PrintData(); // 42
+
+            // Наследование обобщения с общим типом
+            var stringObj = new Derived<string>();
+            stringObj.Data = "Hello";
+            stringObj.LogData(); // Data: Hello
+
+            // Наследованите обобщения с расширением
+            var addition = new DerivedParams<int, string>();
+            addition.Value = 100;
+            addition.AdditionalData = "Extra"; */
 //--------------------------------------------------------------------------------------------------------------------------------------//
 //--------------------------------------------------------------------------------------------------------------------------------------//
 //--------------------------------------------------------------------------------------------------------------------------------------//

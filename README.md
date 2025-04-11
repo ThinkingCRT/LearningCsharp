@@ -57,6 +57,7 @@
 
 Открытость для сотрудничества — предлагайте улучшения или добавляйте свои примеры!
 
+Использовался источник - https://metanit.com/sharp/tutorial/
 
 *****************************************************************************************************************
 
@@ -105,5 +106,6 @@ Practical: Focus on real-world application, not just syntax.
 
 Open for Collaboration: Feel free to suggest improvements or add examples.
 
+Used source - https://metanit.com/sharp/tutorial/
 
 *****************************************************************************************************************
